@@ -2,4 +2,4 @@ script: ./script.sh
 
 deploy:
   provider: script
-  script: bash env FOO=true ./script.sh
+  script: env FOO=true bash ./script.sh
