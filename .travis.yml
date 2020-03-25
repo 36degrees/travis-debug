@@ -1,5 +1,5 @@
-script: echo $SHELL
+script: ./script.sh
 
 deploy:
   provider: script
-  script: echo $SHELL
+  script: ./script.sh
