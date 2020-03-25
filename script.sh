@@ -1,3 +1,5 @@
+echo $SHELL
+
 things=(
   fizz
   buzz
