@@ -1,0 +1,5 @@
+script: echo $SHELL
+
+deploy:
+  provider: script
+  script: echo $SHELL
